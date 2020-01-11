@@ -80,6 +80,11 @@
             @endif
 
             <div class="content">
+                <div id="editor">
+                    <h2>Sample</h2>
+
+                    <p>This is an instance of the <a href="https://ckeditor.com/docs/ckeditor5/latest/builds/guides/overview.html#classic-editor">classic editor build</a>.</p>
+                </div>
                 <div class="title m-b-md">
                     Laravel
                 </div>
@@ -96,5 +101,7 @@
                 </div>
             </div>
         </div>
+        <link rel="stylesheet" href="/css/app.css">
+        <script src="/js/app.js"></script>
     </body>
 </html>
